@@ -904,13 +904,13 @@ Version: 1.0
      box-shadow: 2px 2px 5px rgba(91, 94, 222, 0.16);
 }
  .inner-navbar .osahan-navbar {
-     padding: 11px 0;
+     padding: 5px 0;
 }
  .inner-navbar .nav-link {
      color: #3f345f !important;
 }
  .inner-section-padding{
-     padding: 100px 0;
+     padding: 50px 0;
 }
  .inner-header-block {
      background-image: linear-gradient(to top, #f0f0f7, #f9f9fd);
