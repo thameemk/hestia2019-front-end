@@ -49,7 +49,7 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a href="#events" class="nav-link">
+            <a href="#events" class="nav-link" id="events">
               EVENTS
             </a>
           </li>
@@ -76,9 +76,9 @@
       </div>
     </div>
   </nav>
-    
-    <div class="container" style="margin-top: 140px">
-      <div class="owl-carousel owl-theme">
+    <div class="container hider" style="margin-top: 140px" id="overlay"> 
+      <div class="overlay" id="darkbg"></div>
+      <div class="owl-carousel owl-theme slide-in-bottom" id="carousel">
         <div class="item auto-height" style="background-image: url('assets/img/bg.jpg'); background-size: cover; background-position: top;" data-hash="events">
           <!-- <img class="d-block w-100 auto-height" src="../../../assets/img/bg.jpg"> -->
           <div class="container" style="padding: 40px;">
@@ -167,6 +167,26 @@
         }
       }
     })
+  </script>
+
+  <script>
+    $(document).ready(
+      function(){
+        $("#events").click("slow", function () {
+          $("#overlay").fadeToggle(function(){
+            $("#carousel").slideDown();
+          });
+      });
+    });  
+
+    $(document).ready(
+      function(){
+        $("#darkbg").click("slow", function () {
+          $("#overlay").fadeToggle(function(){
+            $("#carousel").toggle();
+          });
+      });
+    });  
   </script>
 
   <!--  Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
