@@ -1,0 +1,19 @@
+
+@font-face {
+  font-family: 'Galgo';
+  src: url('fonts/Galgo.eot');
+  src: url('fonts/Galgo.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Galgo.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GalgoScriptOT';
+  src: url('fonts/GalgoScriptOT.svg#GalgoScriptOT') format('svg'),
+       url('fonts/GalgoScriptOT.ttf') format('truetype'),
+       url('fonts/GalgoScriptOT.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
