@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="assets/img/logo.jpg">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-  Hestia'19
+    Hestia'19
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -20,7 +20,7 @@
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link rel="stylesheet" href="assets/css/custom.css">
   <style>
-  .navbar .navbar-nav .nav-item .nav-link{
+    .navbar .navbar-nav .nav-item .nav-link{
     font-size: 1.5rem;
   }
   *{
@@ -71,7 +71,7 @@
 .slideshow li:nth-child(5) {
   background-image: url(assets/img/image10.png);
   animation-delay: 40s;
-} 
+}
 @keyframes imageAnimation {
   0% {
     opacity: 0;
@@ -96,56 +96,64 @@
   <!-- <img src="assets/img/baseimage.png" style="height:100vh; width: 100%;position: relative;z-index:0;"/> -->
   <!-- <img class="img-fluid" src="assets/img/mask.png" style="height:100%; width: 100%; position: absolute; top: 0; right: 0; z-index:1;"/> -->
   <ul class="slideshow">
-     <li></li>
-     <li></li>
-     <li></li>
-     <li></li>
-     <li></li>
-   </ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
 
   <div style="z-index:3;">
-  <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
-    <div class="container">
-      <div class="navbar-translate">
+    <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
+      <div class="container">
+        <div class="navbar-translate">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="sr-only" style="color: black;">Toggle navigation</span>
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only" style="color: black;">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item fade-in">
+              <a href="#" class="nav-link event-click ">
+                EVENTS
+              </a>
+            </li>
+            <li class="nav-item fade-in">
+              <a href="#" class="nav-link">
+                ABOUT
+              </a>
+            </li>
+            <li class="nav-item d-none d-lg-block">
+              <a class="navbar-brand my-auto" href="#">
+                <img class="fade-in-top" style="max-height: 75px;margin-top: -20px;" src="assets/img/logo.png" /></a>
+            </li>
+            <li class="nav-item fade-in">
+              <a href="#" class="nav-link">
+                SPONSORS
+              </a>
+            </li>
+            <li class="nav-item fade-in">
+              <a href="#" class="nav-link">
+                CONTACT
+              </a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a href="#" class="nav-link btn btn-outline-primary float-left " style="border-color:white;">
+                LOGIN
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="collapse navbar-collapse">
-         <ul class="navbar-nav mx-auto">
-          <li class="nav-item fade-in">
-            <a href="#" class="nav-link event-click ">
-            EVENTS
-            </a>
-          </li>
-          <li class="nav-item fade-in">
-            <a href="#" class="nav-link">
-            ABOUT
-            </a>
-          </li>
-          <li class="nav-item d-none d-lg-block">
-            <a class="navbar-brand my-auto" href="#">
-              <img class="fade-in-top" style="max-height: 75px;margin-top: -20px;" src="assets/img/logo.png"/></a>
-          </li>
-          <li class="nav-item fade-in">
-            <a href="#" class="nav-link">
-            SPONSORS
-            </a>
-          </li>
-          <li class="nav-item fade-in">
-            <a href="#" class="nav-link">
-            CONTACT
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</div>
+    </nav>
+  </div>
 
 
   <!--   Core JS Files   -->
@@ -162,19 +170,22 @@
 
   <script type="text/javascript">
     $("#carousel").hide();
-    $(".event-click").click(function(){
+    $(".event-click").click(function() {
       $("#carousel").show();
     });
-</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135861738-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135861738-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-gtag('config', 'UA-135861738-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-135861738-1');
+  </script>
 
 </body>
 
