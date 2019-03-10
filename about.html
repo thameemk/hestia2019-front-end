@@ -31,17 +31,25 @@
       -o-background-size: cover;
       background-size: cover;
     }
+    @media screen and (min-width: 767px){
+      .hid-block{
+        overflow: hidden;
+      }
+    }
+    .hid-block{
+      overflow: none;
+    }
   </style>
 </head>
 
-<body style="overflow:hidden;">
+<body class="hid-block">
   <div class="container font-weight-bold">
-    <div class="row ">
+    <div class="row " style="display:block;text-align:center;">
       <h2 class="text-white  ">ABOUT US</h2>
     </div>
     <div class="row " style="height:100vh">
       <div class="col-md-5 my-auto ">
-        <p class="text-justify text-white ">TKM College of Engineering. founded in 1958 is the first
+        <p class="text-justify text-white ">&nbsp;&nbsp;&nbsp;TKM College of Engineering. founded in 1958 is the first
           government aided college in Kerala and the only engineering
           College in the state under the government aided and
           semi government sector to have been accredited with Grade,
@@ -60,7 +68,7 @@
           eminence, and has been continually re-inventing itself in terms of
           academics, research and infrastructure.</p>
       </div>
-      <div class="col-md-2 my-auto  " style="text-align:center;">
+      <div class="col-md-2 my-auto  ">
         <!-- <img src="http://tkmce.ac.in/wp-content/themes/tkm/images/tkmce_logo.png"> -->
         <img src="assets/img/hestia-logo-s.png" class="mx-4" style="max-width:100px;x`">
 
@@ -70,7 +78,7 @@
       <div class="col-md-5 my-auto">
 
 
-        <p class="text-justify text-white ">Hestia 19 is an extraordinary vision, Inspired by a great purpose
+        <p class="text-justify text-white ">&nbsp;&nbsp;&nbsp;Hestia 19 is an extraordinary vision, Inspired by a great purpose
           and conceived by a strong spark, which make one's thoughts
           break bonds, mind transcend limitations, and consciousness
           expand in every single direction to finally empower everyone
