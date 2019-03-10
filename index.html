@@ -229,6 +229,14 @@ margin-top: 50vh;
     }
     }
 
+    @media screen and (max-width: 767px) {
+      .owl-stage-outer{
+   position: fixed !important;
+   max-width: 92vw;
+ 
+ }
+
+    }
     @media screen and (max-width: 1000px) {
 .mobile-hide {
     display: none !important;
@@ -236,6 +244,7 @@ margin-top: 50vh;
  .mobile-show {
     display: block !important;
  }
+ 
 }
 .mobile-hide {
     display: block;
@@ -327,7 +336,6 @@ margin-top: 50vh;
       <h1>TKMCE</h1>
     </div>
   </div>
-
   <div class="container hider" style="padding-top: 130px" id="overlay">
     <div class="overlay" id="darkbg"></div>
     <div class="owl-carousel owl-theme slide-in-bottom" id="carousel">
@@ -417,6 +425,8 @@ margin-top: 50vh;
         $("#events").click("slow", function () {
           $("#overlay").fadeToggle(function(){
             $("#carousel").slideDown();
+            $('.navbar-toggler').click();
+
           });
       });
     });
