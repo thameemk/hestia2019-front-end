@@ -16,10 +16,12 @@
   <!--     Fonts and icons     -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
   <link href="http://db.onlinewebfonts.com/c/663357fcaceba8348ec0998a7e3a2fb5?family=ProhibitionW00-Regular" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
   <!-- CSS Files -->
   <link href="assets/css/material-kit.css?v=2.0.5" rel="stylesheet" />
-  <!-- CSS Just for demo purpose, don't include it in your project -->
+
+  <link rel="stylesheet" href="assets/carousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/carousel/assets/owl.theme.default.min.css">
   <link rel="stylesheet" href="assets/css/custom.css">
   <style>
     .navbar .navbar-nav .nav-item .nav-link{
@@ -32,9 +34,9 @@
     background-color: black;
   }
   .slideshow {
-  position: fixed;
-  width: 100%;
-  height: 100%;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
   top: 0;
   left: 0;
   z-index: 2;
@@ -93,7 +95,6 @@
 
 
 .slider_text{
-height: 100vh;
 margin-top: 50vh;
   max-width: 5em;
   float: left;
@@ -280,15 +281,25 @@ margin-top: 50vh;
           
         </div>
         <div class="collapse navbar-collapse">
-          <ul class="navbar-nav mx-auto" style="padding-left: 5%;">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              &nbsp;&nbsp;
+              &nbsp;&nbsp;
+              &nbsp;&nbsp;
+              &nbsp;&nbsp;
+              &nbsp;&nbsp;
+              &nbsp;&nbsp;
+            </li>
+          </ul>
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item fade-in">
-              <a href="#" class="nav-link event-click ">
+              <a href="#" class="nav-link event-click " id="events">
                 EVENTS
               </a>
             </li>
             <li class="nav-item fade-in">
               <a href="#" class="nav-link">
-                ABOUT
+                SPONSORS
               </a>
             </li>
             <li class="nav-item d-none d-lg-block">
@@ -297,7 +308,7 @@ margin-top: 50vh;
             </li>
             <li class="nav-item fade-in">
               <a href="#" class="nav-link">
-                SPONSORS
+                ABOUT
               </a>
             </li>
             <li class="nav-item fade-in">
@@ -323,9 +334,49 @@ margin-top: 50vh;
     </div>
   </div>
 
+  <div class="container hider" style="padding-top: 130px" id="overlay">
+    <div class="overlay" id="darkbg"></div>
+    <div class="owl-carousel owl-theme slide-in-bottom" id="carousel">
+      <div class="item auto-height" style="background-image: url('assets/img/bg.jpg'); background-size: cover; background-position: top;"
+        data-hash="events">
+        <div class="container" style="padding: 40px;">
+          <h1 class="title">Events</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem cupiditate officiis sapiente architecto,
+            eaque natus explicabo.</p>
+        </div>
+      </div>
+      <div class="item auto-height" style="background-image: url('assets/img/bg2.jpg'); background-size: cover; background-position: top;"
+        data-hash="about">
+        <div class="container" style="padding: 40px;">
+          <h1 class="title">Events</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem cupiditate officiis sapiente architecto,
+            eaque natus explicabo.</p>
+        </div>
+      </div>
+      <div class="item auto-height" style="background-image: url('assets/img/bg3.jpg'); background-size: cover; background-position: top;"
+        data-hash="contact">
+        <div class="container" style="padding: 40px;">
+          <h1 class="title">Events</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem cupiditate officiis sapiente architecto,
+            eaque natus explicabo.</p>
+        </div>
+      </div>
+      <div class="item auto-height" style="background-image: url('assets/img/bg2.jpg'); background-size: cover; background-position: top;"
+        data-hash="sponsors">
+        <div class="container" style="padding: 40px;">
+          <h1 class="title">Events</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem cupiditate officiis sapiente architecto,
+            eaque natus explicabo.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
 
   <!--   Core JS Files   -->
   <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="assets/carousel/owl.carousel.min.js"></script>
   <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
   <script src="assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
   <script src="assets/js/plugins/moment.min.js"></script>
@@ -336,10 +387,53 @@ margin-top: 50vh;
   <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
   <script src="assets/js/material-kit.js?v=2.0.5" type="text/javascript"></script>
 
-  <script type="text/javascript">
-    $("#carousel").hide();
-    $(".event-click").click(function() {
-      $("#carousel").show();
+  <script>
+    $('.owl-carousel').owlCarousel({
+      centre: true,
+      items: 1,
+      stagePadding: 150,
+      loop: true,
+      margin: 0,
+      URLhashListener:true,
+      autoplayHoverPause:true,
+      startPosition: 'events',
+      nav: true,
+      navText : ['<span class="carousel-control-prev-icon" aria-hidden="true"></span>', '<span class="carousel-control-next-icon" aria-hidden="true"></span>'],
+      responsiveClass:true,
+      responsive:{
+        0:{
+          items:1,
+          stagePadding: 25,
+        },
+        600:{
+          items:1,
+          stagePadding: 100,
+        },
+        1000:{
+          items:1,
+          loop:true
+        }
+      }
+    })
+  </script>
+
+  <script>
+    $(document).ready(
+      function(){
+        $("#events").click("slow", function () {
+          $("#overlay").fadeToggle(function(){
+            $("#carousel").slideDown();
+          });
+      });
+    });
+
+    $(document).ready(
+      function(){
+        $("#darkbg").click("slow", function () {
+          $("#overlay").fadeToggle(function(){
+            $("#carousel").toggle();
+          });
+      });
     });
   </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
