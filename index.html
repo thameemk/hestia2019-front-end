@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
   <!-- CSS Files -->
   <link href="assets/css/material-kit.css?v=2.0.5" rel="stylesheet" />
+  
   <link rel="stylesheet" href="assets/carousel/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="assets/carousel/assets/owl.theme.default.min.css">
   <link rel="stylesheet" href="assets/css/custom.css">
@@ -362,26 +363,24 @@ margin-top: 50vh;
       stagePadding: 150,
       loop: true,
       margin: 0,
-      URLhashListener: true,
-      autoplayHoverPause: true,
+      URLhashListener:true,
+      autoplayHoverPause:true,
       startPosition: 'events',
       nav: true,
-      navText: ['<span class="carousel-control-prev-icon" aria-hidden="true"></span>',
-        '<span class="carousel-control-next-icon" aria-hidden="true"></span>'
-      ],
-      responsiveClass: true,
-      responsive: {
-        0: {
-          items: 1,
+      navText : ['<span class="carousel-control-prev-icon" aria-hidden="true"></span>', '<span class="carousel-control-next-icon" aria-hidden="true"></span>'],
+      responsiveClass:true,
+      responsive:{
+        0:{
+          items:1,
           stagePadding: 25,
         },
-        600: {
-          items: 1,
+        600:{
+          items:1,
           stagePadding: 100,
         },
-        1000: {
-          items: 1,
-          loop: true
+        1000:{
+          items:1,
+          loop:true
         }
       }
     })
@@ -389,23 +388,22 @@ margin-top: 50vh;
 
   <script>
     $(document).ready(
-      function () {
+      function(){
         $("#events").click("slow", function () {
-          $("#overlay").fadeToggle(function () {
-            console.log("test");
+          $("#overlay").fadeToggle(function(){
             $("#carousel").slideDown();
           });
-        });
       });
+    });  
 
     $(document).ready(
-      function () {
+      function(){
         $("#darkbg").click("slow", function () {
-          $("#overlay").fadeToggle(function () {
+          $("#overlay").fadeToggle(function(){
             $("#carousel").toggle();
           });
-        });
       });
+    });  
   </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135861738-1"></script>
