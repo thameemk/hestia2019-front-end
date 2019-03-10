@@ -3,8 +3,8 @@
 }
 @media (min-width: 1000px) {
     .auto-height{
-        min-height: 400px;
-        max-height: 500px;
+        min-height: 350px;
+        max-height: 400px;
     }
 }
 
