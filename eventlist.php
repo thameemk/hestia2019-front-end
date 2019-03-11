@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   
-  <link rel="icon" type="image/png" href="assets/img/hestia-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/hestia-icon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
   Hestia19
@@ -12,15 +12,15 @@
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-  <link href="assets/fonts/Hestia.css?family=Hestia-Regular" rel="stylesheet">
-  <link href="assets/fonts/Galgo.css?family=Galgo" rel="stylesheet">
+  <link href="./assets/fonts/Hestia.css?family=Hestia-Regular" rel="stylesheet">
+  <link href="../assets/fonts/Galgo.css?family=Galgo" rel="stylesheet">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
   <!-- CSS Files -->
-  <link href="assets/css/material-kit.css?v=2.0.5" rel="stylesheet" />
+  <link href="../assets/css/material-kit.css?v=2.0.5" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="assets/demo/demo.css" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/main_style.css">
+  <link href="../assets/demo/demo.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/main_style.css">
   <style>
   .navbar .navbar-nav .nav-item .nav-link{
     font-size: 1.5rem;
@@ -88,12 +88,12 @@ padding-right:10vh;
 </style>
 </head>
 
-<body class="profile-page sidebar-collapse page-header" data-parallax="true" style="background: url('assets/img/event_list_bg.jpg') no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;height: 100%;overflow: scroll;">
+<body class="profile-page sidebar-collapse page-header" data-parallax="true" style="background: url('../assets/img/event_list_bg.jpg') no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;height: 100%;overflow: scroll;">
   <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="black" id="sectionsNav">
     <div class="container-fluid">
       <div class="navbar-translate">
-       <a href="./">
-          <img style="max-height:40px;" class="mobile-show" src="assets/img/logo-inline-with-text.png">
+       <a href="../">
+          <img style="max-height:40px;" class="mobile-show" src="../assets/img/logo-inline-with-text.png">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="sr-only" style="color: black;">Toggle navigation</span>
@@ -105,7 +105,7 @@ padding-right:10vh;
       </div>
       <div class="collapse navbar-collapse">
         
-        <ul class="navbar-nav mx-auto">
+      <ul class="navbar-nav mx-auto">
           <li class="nav-item fade-in">
             <a href="#" class="nav-link event-click " id="events">
               EVENTS
@@ -117,16 +117,16 @@ padding-right:10vh;
             </a>
           </li>
           <li class="nav-item d-none d-lg-block">
-            <a class="navbar-brand my-auto" href="./">
-              <img class="fade-in-top" style="max-height: 75px;margin-top: -20px;" src="assets/img/logo.png" /></a>
+            <a class="navbar-brand my-auto" href="../">
+              <img class="fade-in-top" style="max-height: 75px;margin-top: -20px;" src="../assets/img/logo.png" /></a>
           </li>
           <li class="nav-item fade-in">
-            <a href="#" class="nav-link">
+            <a href="../about/" class="nav-link">
               ABOUT
             </a>
           </li>
           <li class="nav-item fade-in">
-            <a href="#" class="nav-link">
+            <a href="../contact/" class="nav-link">
               CONTACT
             </a>
           </li>
@@ -161,16 +161,16 @@ padding-right:10vh;
 
 
   <!--   Core JS Files   -->
-  <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
-  <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
-  <script src="assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
-  <script src="assets/js/plugins/moment.min.js"></script>
+  <script src="../assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="../assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+  <script src="../assets/js/plugins/moment.min.js"></script>
   <!--  Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
-  <script src="assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+  <script src="../assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
   <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-  <script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <script src="../assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
   <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
-  <script src="assets/js/material-kit.js?v=2.0.5" type="text/javascript"></script>
+  <script src="../assets/js/material-kit.js?v=2.0.5" type="text/javascript"></script>
   <script type="text/javascript">
     $("#carousel").hide();
     $(".event-click").click(function(){
