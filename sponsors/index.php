@@ -1,94 +1,121 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <title>Hestia19</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta charset="utf-8" />
   <link rel="icon" type="image/png" href="../assets/img/hestia-icon.png">
+
+
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <link rel="stylesheet" href="../assets/css/eventium-assets.min.css">
-  <link rel="stylesheet" href="../assets/css/style-sponsor.css">
-  <link href="assets/css/material-kit.css?v=2.0.5" rel="stylesheet" />
+  <title>
+    Hestia19
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
   <link href="../assets/fonts/Hestia.css?family=Hestia-Regular" rel="stylesheet">
+  <link href="../assets/fonts/Galgo.css?family=Galgo" rel="stylesheet">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="../assets/css/material-kit.css?v=2.0.5" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="../assets/demo/demo.css" rel="stylesheet" />
 
+  <!-- <link rel="stylesheet" href="assets/css/main_style.css"> -->
   <style>
-  body{
-    background: url('../assets/img/about_us_bg.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  .sponsor{
-    overflow:none;
-  }
-  @media screen and (min-width: 767px) {
-    .sponsor {
-      overflow: hidden;
+    .listing2 {
+
+      font-size: 2rem;
+      font-family: 'Hestia-Regular', sans-serif !important;
+      color: white;
     }
-  }
-  .listing4 {
 
-    font-family: 'Hestia-Regular', sans-serif !important;
-    color: white;
-  }
-  .back_btn{
+    .listing3 {
 
-left:10px;
-}
-
-
-  @media screen and (min-width: 767px) {
-
-    .back_btn{
-      left:40px;
+      font-family: 'Hestia-Regular', sans-serif !important;
+      color: white;
     }
-  }
-  .spo_box{
-    /* background-color:white; */
-    /* margin:5px; */
-    padding: 5px;
 
-  }
-  .spo_box a{
-    margin:auto;
-    width:100%;
-    height:110px;
-      background-color:white;
+    body {
+      background: url('../assets/img/about_us_bg.jpg') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
 
-  }
-  .spo_box a img{
-    /* max-height: 110px; */
-    height:110px;
-    max-width: 110
+    .back_btn {
+
+      left: 10px;
+    }
 
 
-  }
+    @media screen and (min-width: 767px) {
+      .hid-block {
+        overflow: hidden;
+      }
 
+      .back_btn {
+        left: 40px;
+      }
+    }
+
+
+    .hid-block {
+      overflow: none;
+    }
+
+    .text-al {
+      text-align: center;
+      padding: 20px;
+      /* margin-bottom: 100px; */
+    }
   </style>
 </head>
-<body class="sponsor ">
-<section class="clients-section">
-			<div class="container text-center">
 
-          <h1 class="listing4 "><a  class="back_btn" style="position:absolute;text-decoration:none;color:white;" href="#" onclick="window.history.back();"><i class="fa fa-arrow-left" aria-hidden="true"></i>
-    </a> SPONSORS</h1>
-					<p class="listing4">Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+<body>
+  <div class="container font-weight-bold">
+    <div class="row " style="display:block;text-align:center;">
+      <h2 class="listing2 pt-4"><a class="back_btn" style="position:absolute;text-decoration:none;color:white;" href="#" onclick="window.history.back();"><i class="fa fa-arrow-left" aria-hidden="true"></i>
+        </a> SPONSORS</h2>
+    </div>
+    <div class="row pt-5 ">
+      <div class="col-md-3 col-sm-12 text-al  my-auto">
+        <a href="#"><img src="http://nunforest.com/eventium/images/clients/1.png" alt=""></a>
+      </div>
+      <div class="col-md-3 col-sm-12  text-al my-auto">
+        <a href="#"><img src="http://nunforest.com/eventium/images/clients/1.png" alt=""></a>
 
-          <div class="client-box ">
-            <div class=" row client-list">
-              <div class="col-md-3 col-sm-12 spo_box mx-auto"><a href="#"><img src="http://nunforest.com/eventium/images/clients/1.png" alt=""></a></div>
-              <div class="col-md-3 col-sm-12 spo_box"><a href="#"><img src="http://nunforest.com/eventium/images/clients/2.png" alt=""></a></div>
-              <div class="col-md-3 col-sm-12 spo_box"><a href="#"><img src="http://nunforest.com/eventium/images/clients/3.png" alt=""></a></div>
-              <div class="col-md-3 col-sm-12 spo_box"><a href="#"><img src="http://nunforest.com/eventium/images/clients/4.png" alt=""></a></div>
-            </div>
-            <div class=" row client-list">
+      </div>
+      <div class="col-md-3 col-sm-12  text-al my-auto">
+        <a href="#"><img src="http://nunforest.com/eventium/images/clients/1.png" alt=""></a>
 
-              <div class="spo_box"><a href="#"><img src="http://nunforest.com/eventium/images/clients/5.png" alt=""></a></div>
-              <div class="spo_box"><a href="#"><img src="http://nunforest.com/eventium/images/clients/6.png" alt=""></a></div>
-              <div class="spo_box"><a href="#"><img src="http://nunforest.com/eventium/images/clients/7.png" alt=""></a></div>
-              <div class="spo_box"><a href="#">Become a<br> sponsor</a></div>
-            </div>
-				</div>
-			</div>
-</section>
+      </div>
+      <div class="col-md-3 col-sm-12  text-al my-auto">
+        <a href="#"><img src="http://nunforest.com/eventium/images/clients/1.png" alt=""></a>
+
+      </div>
+    </div>
+    <div class="row pt-5 ">
+      <div class=" col-md-3 col-sm-12  text-al my-auto ">
+        <a href=" #"><img src="http://nunforest.com/eventium/images/clients/1.png" alt=""></a>
+      </div>
+      <div class="col-md-3 col-sm-12  text-al my-auto ">
+        <a href="#"><img src="http://nunforest.com/eventium/images/clients/1.png" alt=""></a>
+
+      </div>
+      <div class="col-md-3 col-sm-12  text-al my-auto">
+        <a href="#"><img src="http://nunforest.com/eventium/images/clients/1.png" alt=""></a>
+
+      </div>
+      <div class="col-md-3 col-sm-12  text-al my-auto">
+        <a href="#"><img src="http://nunforest.com/eventium/images/clients/1.png" alt=""></a>
+
+      </div>
+    </div>
+  </div>
 </body>
+
+</html>
