@@ -25,12 +25,22 @@
   <link rel="stylesheet" href="assets/carousel/assets/owl.theme.default.min.css">
   <link rel="stylesheet" href="assets/css/custom.css">
   <link rel="stylesheet" href="assets/css/main_style.css">
-  <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  function initmask() {
+    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    if(w < 960){
+  
+      var x = document.getElementById("pcmask");
+     x.setAttribute("src", "assets/img/mobile_phone_front_end.png");
+    }
+
+}
+   </script>  
 
 </head>
 
-  <body class="profile-page sidebar-collapse">
-      <img src="assets/img/landing_mask.png" class="pcmask" data-parallax="true" style="height:100vh; width: 100%; overflow: hidden; z-index: 2; position: absolute;" alt="">
+  <body class="profile-page sidebar-collapse" onload="initmask()">
+      <img src="assets/img/landing_mask.png" id="pcmask" data-parallax="true" style="height:100vh; width: 100%; overflow: hidden; z-index: 2; position: absolute;" alt="">
   <ul class="slideshow">
     <li></li>
     <li></li>
@@ -38,7 +48,7 @@
     <li></li>
     <li></li>
   </ul>
-
+  
   <div style="z-index:3;">
     <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
       <div class="container-fluid">
@@ -149,8 +159,8 @@
 
 
   <!--   Core JS Files   -->
-
-  <script src="assets/carousel/owl.carousel.min.js"></script>
+  <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/carousel/owl.carousel.min.js"></script>
   <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
   <script src="assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
   <script src="assets/js/plugins/moment.min.js"></script>
@@ -160,11 +170,7 @@
   <script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
   <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
   <script src="assets/js/material-kit.js?v=2.0.5" type="text/javascript"></script>
-  <script type="text/javascript">
-    if($(window).width() < 960){
-      $(".pcmask").attr("src", "assets/img/mobile_phone_front_end.png");
-    }
-   </script>
+  
 
   <script>
     $('.owl-carousel').owlCarousel({
