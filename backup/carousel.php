@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="assets/img/logo.jpg">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Hestia'19
+    Hestia19
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -76,7 +76,7 @@
       </div>
     </div>
   </nav>
-    <div class="container hider" style="padding-top: 140px" id="overlay"> 
+    <div class="container hider" style="padding-top: 140px" id="overlay">
       <div class="overlay" id="darkbg"></div>
       <div class="owl-carousel owl-theme slide-in-bottom" id="carousel">
         <div class="item auto-height" style="background-image: url('assets/img/bg.jpg'); background-size: cover; background-position: top;" data-hash="events">
@@ -118,7 +118,7 @@
               <h1 class="title">Events</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem cupiditate officiis sapiente architecto, eaque natus explicabo.</p>
           </div>
-          
+
         </div>
       </div>
       <!-- <a class="carousel-control-prev owl-prev" role="button" data-slide="prev">
@@ -177,7 +177,7 @@
             $("#carousel").slideDown();
           });
       });
-    });  
+    });
 
     $(document).ready(
       function(){
@@ -186,7 +186,7 @@
             $("#carousel").toggle();
           });
       });
-    });  
+    });
   </script>
 
   <!--  Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
