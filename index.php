@@ -86,7 +86,7 @@
               </a>
             </li>
             <li class="nav-item fade-in">
-              <a href="contact.html" class="nav-link">
+              <a href="contact/" class="nav-link">
                 CONTACT
               </a>
             </li>
