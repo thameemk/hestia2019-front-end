@@ -42,7 +42,12 @@
   	    overflow: hidden;
        padding: 0px;       
        height: 100%;
-   	}
+       width: 100%;
+     }
+     #event-mask{
+       width: 100%;
+       height: 100%;
+     }
   #img-cont{
    		height : 540px;
    		overflow-y: scroll
