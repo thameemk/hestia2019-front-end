@@ -71,7 +71,7 @@ left:10px;
 
   <div class="container font-weight-bold">
     <div class="row " style="display:block;text-align:center;">
-      <h2 class="listing2 pt-4"><a  class="back_btn" style="position:absolute;text-decoration:none;color:white;" href="../"><i class="fa fa-arrow-left" aria-hidden="true"></i>
+      <h2 class="listing2 pt-4"><a  class="back_btn" style="position:absolute;text-decoration:none;color:white;" href="#" onclick="window.history.back();"><i class="fa fa-arrow-left" aria-hidden="true"></i>
 </a> ABOUT US</h2>
     </div>
     <div class="row pb-5" style="height:100vh">
