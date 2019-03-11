@@ -76,7 +76,7 @@ left:10px;
     </div>
     <div class="row pb-5" style="height:100vh">
       <div class="col-md-5 my-auto ">
-        <p class="text-justify  listing3">&nbsp;&nbsp;&nbsp;TKM College of Engineering. founded in 1958 is the first
+        <p class="text-justify  listing3" style="letter-spacing: 1px;">&nbsp;&nbsp;&nbsp;TKM College of Engineering. founded in 1958 is the first
           government aided college in Kerala and the only engineering
           College in the state under the government aided and
           semi government sector to have been accredited with Grade,
@@ -105,7 +105,7 @@ left:10px;
       <div class="col-md-5 my-auto">
 
 
-        <p class="text-justify listing3 ">&nbsp;&nbsp;&nbsp;Hestia 19 is an extraordinary vision, Inspired by a great purpose
+        <p class="text-justify listing3 " style="letter-spacing: 1px;">&nbsp;&nbsp;&nbsp;Hestia 19 is an extraordinary vision, Inspired by a great purpose
           and conceived by a strong spark, which make one's thoughts
           break bonds, mind transcend limitations, and consciousness
           expand in every single direction to finally empower everyone
