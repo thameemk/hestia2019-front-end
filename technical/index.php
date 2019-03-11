@@ -87,7 +87,7 @@ padding-right:10vh;
 </style>
 </head>
 
-<body class="profile-page sidebar-collapse page-header" data-parallax="true" style="background: url('../assets/img/bg_tree.jpg') no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;height: 100%;overflow: scroll;">
+<body class="profile-page sidebar-collapse page-header" data-parallax="true" style="background: url('../assets/img/event_list_bg.jpg') no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;height: 100%;overflow: scroll;">
   <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="black" id="sectionsNav">
     <div class="container-fluid">
       <div class="navbar-translate">
@@ -153,49 +153,46 @@ padding-right:10vh;
   <div class='clearfix'></div>
 <br>
 <div class="row event_listing_div"  style="text-align:left;padding-top: 10vh;">
+<div class="col-12 listing1" style="padding-bottom: 20px;">
+              <p class="event-name text-light" style="letter-spacing: 3px;color:white;text-align: left;">BIG - O</p>
+              <p class="event-desc">Department of Computer Science</p>
+              <a href="#" class="details">MORE&nbsp;DETAILS</a>
+            </div>
     <div class="col-12 listing1" style="padding-bottom: 20px;">
-      <p class="event-name text-light" style="letter-spacing: 3px;color:white;text-align: left;">ELECTRICAL AND ELECTRONICS</p>
-      <p class="event-desc">Electrical and Electronics Description</p>
+      <p class="event-name text-light" style="letter-spacing: 3px;color:white;text-align: left;">NEGATIVE</p>
+      <p class="event-desc">Department of Electrical and Electronics</p>
       <a href="#" class="details">MORE&nbsp;DETAILS</a>
     </div>
       <div class="col-12 listing1" style="padding-bottom: 20px;">
-      <p class="event-name text-light" style="letter-spacing: 3px;text-align: left;">ARCHITECTURE</p>
-      <p class="event-desc">Architecture Description</p>
+      <p class="event-name text-light" style="letter-spacing: 3px;text-align: left;">HIWAGA</p>
+      <p class="event-desc">Department of Architecture</p>
       <a href="#" class="details">MORE&nbsp;DETAILS</a>
       </div>
       <div class="col-12 listing1" style="padding-bottom: 20px;">
       <p class="event-name text-light" style="letter-spacing: 3px;text-align: left;">ROBOTICS</p>
-      <p class="event-desc">Robotics Description</p>
+      <p class="event-desc">Robotics</p>
       <a href="#" class="details">MORE&nbsp;DETAILS</a>
       </div>
       <div class="col-12 listing1" style="padding-bottom: 20px;">
       <p class="event-name text-light" style="letter-spacing: 3px;text-align: left;">CHEMICAL ENGINEERING</p>
-      <p class="event-desc">Chemical Engineering Description</p>
+      <p class="event-desc">Chemical Engineering</p>
       <a href="#" class="details">MORE&nbsp;DETAILS</a>
       </div>
+   
       <div class="col-12 listing1" style="padding-bottom: 20px;">
-      <p class="event-name text-light" style="letter-spacing: 3px;text-align: left;">DENOVO</p>
-      <p class="event-desc">Denovo Description</p>
-      <a href="#" class="details">MORE&nbsp;DETAILS</a>
-      </div>
-      <div class="col-12 listing1" style="padding-bottom: 20px;">
-      <p class="event-name text-light" style="letter-spacing: 3px;text-align: left;">ELECTRONICS AND COMMUNICATION</p>
-      <p class="event-desc">Electronics and Communication Engineering Description</p>
+      <p class="event-name text-light" style="letter-spacing: 3px;text-align: left;">ESTELLA</p>
+      <p class="event-desc">Electronics and Communication Engineering</p>
       <a href="#" class="details">MORE&nbsp;DETAILS</a>
       </div>
       <div class="col-12 listing1" style="padding-bottom: 20px;">
       <p class="event-name text-light" style="letter-spacing: 3px;text-align: left;">MECHANICAL & PRODUCTION</p>
-      <p class="event-desc">Mechanical Engineering Description</p>
+      <p class="event-desc">Mechanical Engineering</p>
       <a href="#" class="details">MORE&nbsp;DETAILS</a>
       </div>
-    <div class="col-12 listing1" style="padding-bottom: 20px;">
-              <p class="event-name text-light" style="letter-spacing: 3px;color:white;text-align: left;">COMPUTER SCIENCE</p>
-              <p class="event-desc">Computer Science Description</p>
-              <a href="#" class="details">MORE&nbsp;DETAILS</a>
-            </div>
+    
     <div class="col-12 listing1" style="padding-bottom: 20px;">
       <p class="event-name text-light" style="letter-spacing: 3px;text-align: left;">CIVIL ENGINEERING</p>
-      <p class="event-desc">Civil Engineering Description</p>
+      <p class="event-desc">Civil Engineering</p>
       <a href="#" class="details">MORE&nbsp;DETAILS</a>
     </div>
   </div>

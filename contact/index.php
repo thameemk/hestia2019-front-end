@@ -36,12 +36,24 @@
     /* .fa-facebook{
       display: inline-block;
     } */
+    .back_btn{
+
+left:10px;
+}
+
+@media screen and (min-width: 767px) {
+  .back_btn{
+        left:40px;
+      }
+}
   </style>
+
 </head>
 
 <body style="background-image:url('../assets/img/ediyt.jpg')">
   <div class="container  text-white">
-    <h2 class="text-center " style="display: block;font-weight: 700; margin-top: 5%; letter-spacing: 2px; font-family: 'Hestia-Regular', sans-serif;">CONTACT US</h2>
+    <h2 class="text-center " style="display: block;font-weight: 700; margin-top: 5%; letter-spacing: 2px; font-family: 'Hestia-Regular', sans-serif;"><a  class="back_btn" style="position:absolute;text-decoration:none;color:white;" href="../"><i class="fa fa-arrow-left" aria-hidden="true"></i>
+</a>CONTACT US</h2>
     <div class="row mb-5 pt-5">
       <div class="col-md-2 col-sm-12">
 

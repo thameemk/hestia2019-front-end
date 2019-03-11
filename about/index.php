@@ -43,12 +43,21 @@
       -o-background-size: cover;
       background-size: cover;
     }
+    .back_btn{
+
+left:10px;
+}
+
 
     @media screen and (min-width: 767px) {
       .hid-block {
         overflow: hidden;
       }
+      .back_btn{
+        left:40px;
+      }
     }
+
 
     .hid-block {
       overflow: none;
@@ -57,9 +66,13 @@
 </head>
 
 <body class="hid-block">
+
+
+
   <div class="container font-weight-bold">
     <div class="row " style="display:block;text-align:center;">
-      <h2 class="listing2 pt-4">ABOUT US</h2>
+      <h2 class="listing2 pt-4"><a  class="back_btn" style="position:absolute;text-decoration:none;color:white;" href="../"><i class="fa fa-arrow-left" aria-hidden="true"></i>
+</a> ABOUT US</h2>
     </div>
     <div class="row pb-5" style="height:100vh">
       <div class="col-md-5 my-auto ">

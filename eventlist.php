@@ -87,7 +87,7 @@ padding-right:10vh;
 </style>
 </head>
 
-<body class="profile-page sidebar-collapse page-header" data-parallax="true" style="background: url('assets/img/bg_tree.jpg') no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;height: 100%;overflow: scroll;">
+<body class="profile-page sidebar-collapse page-header" data-parallax="true" style="background: url('assets/img/event_list_bg.jpg') no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;height: 100%;overflow: scroll;">
   <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="black" id="sectionsNav">
     <div class="container-fluid">
       <div class="navbar-translate">
