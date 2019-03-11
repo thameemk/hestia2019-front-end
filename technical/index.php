@@ -174,11 +174,11 @@ padding-right:10vh;
       <a href="#" class="details">MORE&nbsp;DETAILS</a>
       </div>
       <div class="col-12 listing1" style="padding-bottom: 20px;">
-      <p class="event-name text-light" style="letter-spacing: 3px;text-align: left;">CHEMICAL ENGINEERING</p>
+      <p class="event-name text-light" style="letter-spacing: 3px;text-align: left;">RAASA</p>
       <p class="event-desc">Chemical Engineering</p>
       <a href="#" class="details">MORE&nbsp;DETAILS</a>
       </div>
-   
+
       <div class="col-12 listing1" style="padding-bottom: 20px;">
       <p class="event-name text-light" style="letter-spacing: 3px;text-align: left;">ESTELLA</p>
       <p class="event-desc">Electronics and Communication Engineering</p>
@@ -189,7 +189,7 @@ padding-right:10vh;
       <p class="event-desc">Mechanical Engineering</p>
       <a href="#" class="details">MORE&nbsp;DETAILS</a>
       </div>
-    
+
     <div class="col-12 listing1" style="padding-bottom: 20px;">
       <p class="event-name text-light" style="letter-spacing: 3px;text-align: left;">CIVIL ENGINEERING</p>
       <p class="event-desc">Civil Engineering</p>
