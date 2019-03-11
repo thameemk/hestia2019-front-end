@@ -41,7 +41,7 @@
 
 
   .listing1 .event-name{
-
+    line-height:2rem;
       font-size: 2rem;
       font-family: 'Hestia-Regular', sans-serif !important;
       color:white;
@@ -103,16 +103,6 @@ padding-right:10vh;
 
       </div>
       <div class="collapse navbar-collapse">
-        <ul class="navbar-nav">
-          <li class="nav-item ">
-            &nbsp;&nbsp;
-            &nbsp;&nbsp;
-            &nbsp;&nbsp;
-            &nbsp;&nbsp;
-            &nbsp;&nbsp;
-            &nbsp;&nbsp;
-          </li>
-        </ul>
         <ul class="navbar-nav mx-auto">
           <li class="nav-item fade-in">
             <a href="#" class="nav-link event-click " id="events">
@@ -140,13 +130,7 @@ padding-right:10vh;
           </li>
         </ul>
 
-        <ul class="navbar-nav">
-          <li class="nav-item ">
-            <a href="#" class="nav-link btn btn-outline-primary float-left " style="border-color:white; margin-left: 12%;">
-              LOGIN
-            </a>
-          </li>
-        </ul>
+    
       </div>
     </div>
   </nav>
@@ -174,11 +158,11 @@ padding-right:10vh;
       <a href="#" class="details">MORE&nbsp;DETAILS</a>
       </div>
       <div class="col-12 listing1" style="padding-bottom: 20px;">
-      <p class="event-name text-light" style="letter-spacing: 3px;text-align: left;">CHEMICAL ENGINEERING</p>
+      <p class="event-name text-light" style="letter-spacing: 3px;text-align: left;">RAASA</p>
       <p class="event-desc">Chemical Engineering</p>
       <a href="#" class="details">MORE&nbsp;DETAILS</a>
       </div>
-   
+
       <div class="col-12 listing1" style="padding-bottom: 20px;">
       <p class="event-name text-light" style="letter-spacing: 3px;text-align: left;">ESTELLA</p>
       <p class="event-desc">Electronics and Communication Engineering</p>
@@ -189,7 +173,7 @@ padding-right:10vh;
       <p class="event-desc">Mechanical Engineering</p>
       <a href="#" class="details">MORE&nbsp;DETAILS</a>
       </div>
-    
+
     <div class="col-12 listing1" style="padding-bottom: 20px;">
       <p class="event-name text-light" style="letter-spacing: 3px;text-align: left;">CIVIL ENGINEERING</p>
       <p class="event-desc">Civil Engineering</p>

@@ -41,7 +41,7 @@
 
 
   .listing1 .event-name{
-
+    line-height:2rem;
       font-size: 2rem;
       font-family: 'Hestia-Regular', sans-serif !important;
       color:white;
@@ -87,7 +87,7 @@ padding-right:10vh;
 </style>
 </head>
 
-<body class="profile-page sidebar-collapse page-header" data-parallax="true" style="background: url('../assets/img/bg_tree.jpg') no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;height: 100%;overflow: scroll;">
+<body class="profile-page sidebar-collapse page-header" data-parallax="true" style="background: url('../assets/img/event_list_bg.jpg') no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;height: 100%;overflow: scroll;">
   <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="black" id="sectionsNav">
     <div class="container-fluid">
       <div class="navbar-translate">
@@ -103,16 +103,7 @@ padding-right:10vh;
 
       </div>
       <div class="collapse navbar-collapse">
-        <ul class="navbar-nav">
-          <li class="nav-item ">
-            &nbsp;&nbsp;
-            &nbsp;&nbsp;
-            &nbsp;&nbsp;
-            &nbsp;&nbsp;
-            &nbsp;&nbsp;
-            &nbsp;&nbsp;
-          </li>
-        </ul>
+        
         <ul class="navbar-nav mx-auto">
           <li class="nav-item fade-in">
             <a href="#" class="nav-link event-click " id="events">
@@ -140,13 +131,7 @@ padding-right:10vh;
           </li>
         </ul>
 
-        <ul class="navbar-nav">
-          <li class="nav-item ">
-            <a href="../" class="nav-link btn btn-outline-primary float-left " style="border-color:white; margin-left: 12%;">
-              LOGIN
-            </a>
-          </li>
-        </ul>
+       
       </div>
     </div>
   </nav>
