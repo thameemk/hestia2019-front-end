@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="assets/img/logo.jpg">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-  Hestia'19
+  Hestia19
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -43,20 +43,20 @@
   .listing1 .event-name{
 
       font-size: 2rem;
-      font-family: 'Hestia-Regular', sans-serif !important; 
+      font-family: 'Hestia-Regular', sans-serif !important;
       color:white;
-  
+
   }
   .event-desc{
       font-size: 1rem;
       color: white;
       margin-top: 3vh;
       margin-bottom: 4vh;
-     
-    
+
+
   }
   .details{
-   
+
       color: black;
       background-color: azure;
       text-decoration: none;
@@ -64,9 +64,9 @@
       padding-right: 20px;
       padding-top: 10px;
       padding-bottom: 10px;
-      border-radius: 2px; 
+      border-radius: 2px;
       margin-bottom: 4vh;
-     
+
   }
   .details:hover{
       color:gray;;
@@ -81,7 +81,7 @@ margin-top:20px;
   padding-left:10vh;
 padding-right:10vh;
   margin-top:100px;
-  
+
 }
   }
 </style>
@@ -100,7 +100,7 @@ padding-right:10vh;
           <span class="navbar-toggler-icon"></span>
           <span class="navbar-toggler-icon"></span>
         </button>
-        
+
       </div>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav">
@@ -152,7 +152,7 @@ padding-right:10vh;
   </nav>
   <div class='clearfix'></div>
 <br>
-<div class="row event_listing_div"  style="text-align:left;padding-top: 10vh;"> 
+<div class="row event_listing_div"  style="text-align:left;padding-top: 10vh;">
     <div class="col-12 listing1" style="padding-bottom: 20px;">
               <p class="event-name text-light" style="letter-spacing: 3px;color:white;text-align: left;">CRANKWOJOYRIDE</p>
               <p class="event-desc">Lorem ipsum dolor sit amet, oratio homero gubergren in vel. Maiorum nominati te eos, et assum gloriatur omittantur qui. Probo aliquam intellegebat ex vix, paulo epicurei pro te. Stet consequuntur ad nec, oportere democritum sit ex.Lorem ipsum dolor sit amet, oratio homero gubergren in vel. Maiorum nominati te eos, et assum gloriatur omittantur qui. Probo aliquam intellegebat ex vix, paulo epicurei pro te. Stet consequuntur ad nec, oportere democritum sit ex.</p>

@@ -10,7 +10,7 @@
 
 
   <title>
-    Hestia'19
+    Hestia19
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -29,13 +29,13 @@
   function initmask() {
     var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
     if(w < 960){
-  
+
       var x = document.getElementById("pcmask");
      x.setAttribute("src", "assets/img/mobile_phone_front_end.png");
     }
 
 }
-   </script>  
+   </script>
 
 </head>
 
@@ -48,7 +48,7 @@
     <li></li>
     <li></li>
   </ul>
-  
+
   <div style="z-index:3;">
     <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
       <div class="container-fluid">
@@ -170,7 +170,7 @@
   <script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
   <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
   <script src="assets/js/material-kit.js?v=2.0.5" type="text/javascript"></script>
-  
+
 
   <script>
     $('.owl-carousel').owlCarousel({
