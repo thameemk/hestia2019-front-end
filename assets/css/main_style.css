@@ -248,7 +248,8 @@ margin-top: 50vh;
  }
  .event-name{
      font-family: 'Galgo' !important;
-     letter-spacing: 2px; color: white;
+     letter-spacing: 2px; color: #e1e1e1;
+
      text-align: center;
  }
  .animate-right{line-height:.8em;font-family:'Hestia-Regular';position:relative;animation:animateright 3s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}

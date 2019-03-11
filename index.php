@@ -120,34 +120,34 @@
   <div class="container hider" style="padding-top: 115px;" id="overlay">
     <div class="overlay" id="darkbg"></div>
     <div class="owl-carousel owl-theme slide-in-bottom" id="carousel">
-      <div class="item auto-height" style="max-height:50vh;background-image: url('assets/img/bg.jpg'); background-size: cover; background-position: top;"
+      <div class="item auto-height" style="max-height:50vh;background-image: url('assets/img/bg.jpg'); background-size: cover; background-position: top;box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);"
         data-hash="technical">
         <div class="container" style="padding: 10px;position: absolute;top: 50%;left: 50%;transform: translateX(-50%) translateY(-50%);">
-          <h1 class="title  event-name" style="text-shadow: 2px 2px 3px black;">Technical</h1>
+          <h1 class="title  event-name" style="">Technical</h1>
         </div>
       </div>
-      <div class="item auto-height" style="max-height:50vh;background-image: url('assets/img/bg2.jpg'); background-size: cover; background-position: top;"
+      <div class="item auto-height" style="max-height:50vh;background-image: url('assets/img/bg2.jpg'); background-size: cover; background-position: top;box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);"
         data-hash="cultural">
         <div class="container" style="padding: 10px;position: absolute;top: 50%;left: 50%;transform: translateX(-50%) translateY(-50%);">
-          <h1 class="title  event-name" style="text-shadow: 2px 2px 3px black;">Cultural</h1>
+          <h1 class="title  event-name" style="">Cultural</h1>
         </div>
       </div>
-      <div class="item auto-height" style="max-height:50vh;background-image: url('assets/img/bg3.jpg'); background-size: cover; background-position: top;"
+      <div class="item auto-height" style="max-height:50vh;background-image: url('assets/img/bg3.jpg'); background-size: cover; background-position: top;box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);"
         data-hash="workshops">
         <div class="container" style="padding: 10px;position: absolute;top: 50%;left: 50%;transform: translateX(-50%) translateY(-50%);">
-          <h1 class="title  event-name " style="text-shadow: 2px 2px 3px black;">Workshops</h1>
+          <h1 class="title  event-name " style="">Workshops</h1>
         </div>
       </div>
-      <div class="item auto-height" style="max-height:50vh;background-image: url('assets/img/bg2.jpg'); background-size: cover; background-position: top;"
+      <div class="item auto-height" style="max-height:50vh;background-image: url('assets/img/bg2.jpg'); background-size: cover; background-position: top;box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);"
         data-hash="online">
         <div class="container" style="padding: 10px;position: absolute;top: 50%;left: 50%;transform: translateX(-50%) translateY(-50%);">
-          <h1 class="title  event-name" style="text-shadow: 2px 2px 3px black;">Online</h1>
+          <h1 class="title  event-name" style="">Online</h1>
         </div>
       </div>
-      <div class="item auto-height" style="max-height:50vh;background-image: url('assets/img/bg2.jpg'); background-size: cover; background-position: top;"
+      <div class="item auto-height" style="max-height:50vh;background-image: url('assets/img/bg2.jpg'); background-size: cover; background-position: top;box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);"
       data-hash="general">
       <div class="container" style="padding: 10px;position: absolute;top: 50%;left: 50%;transform: translateX(-50%) translateY(-50%);">
-        <h1 class="title  event-name" style="text-shadow: 2px 2px 3px black;">General</h1>
+        <h1 class="title  event-name" style="">General</h1>
       </div>
     </div>
 
