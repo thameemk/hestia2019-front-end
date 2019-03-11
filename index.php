@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  
+
   <link rel="icon" type="image/png" href="assets/img/hestia-icon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="theme-color" content="#1a3840">
@@ -25,6 +25,9 @@
   <link rel="stylesheet" href="assets/carousel/assets/owl.theme.default.min.css">
   <link rel="stylesheet" href="assets/css/custom.css">
   <link rel="stylesheet" href="assets/css/main_style.css">
+  <link rel="stylesheet" href="assets/loader/loader.css">
+  <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="assets/loader/loader.js" type="text/javascript"></script>
   <script type="text/javascript">
   function initmask() {
     var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
@@ -37,7 +40,9 @@
    </script>
 
 </head>
-
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
   <body class="profile-page sidebar-collapse" onload="initmask()">
       <img src="assets/img/landing_mask.png" id="pcmask" data-parallax="true" style="height:100vh; width: 100%; overflow: hidden; z-index: 2; position: absolute;" alt="">
   <ul class="slideshow">
@@ -169,7 +174,6 @@
 
   <!--   Core JS Files   -->
 
-  <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
   <script src="assets/carousel/owl.carousel.min.js"></script>
   <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
   <script src="assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
