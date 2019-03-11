@@ -82,9 +82,9 @@
       </div>
       <div class="col-md-2 my-auto " style="text-align:center;">
         <!-- <img src="http://tkmce.ac.in/wp-content/themes/tkm/images/tkmce_logo.png"> -->
-        <img src="../assets/img/hestia-logo-s.png" class="mx-4" style="max-width:100px;">
+        <img src="../assets/img/logo.png" class="mx-4" style="max-width:100px;">
 
-        <img src="../assets/img/hestia-logo-s.png" class="mx-4" style="max-width:100px;">
+        <img src="../assets/img/logo.png" class="mx-4" style="max-width:100px;">
 
       </div>
       <div class="col-md-5 my-auto">
