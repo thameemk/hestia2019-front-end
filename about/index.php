@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" type="image/png" href="assets/img/hestia-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/hestia-icon.png">
 
 
 
