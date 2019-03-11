@@ -108,7 +108,7 @@
       <h3 class="animate-bottom">TKMCE Kollam</h3>
     </div>
   </div>
-  <div class="container hider" style="padding-top: 100px;" id="overlay">
+  <div class="container hider" style="padding-top: 180px;" id="overlay">
     <div class="overlay" id="darkbg"></div>
     <div class="owl-carousel owl-theme slide-in-bottom" id="carousel">
       <div class="item auto-height" style="max-height:50vh;background-image: url('assets/img/bg.jpg'); background-size: cover; background-position: top;"
