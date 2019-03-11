@@ -254,3 +254,5 @@ margin-top: 50vh;
      letter-spacing: 2px; color: white;
      text-align: center;
  }
+ .animate-right{line-height:.8em;font-family:'Hestia-Regular';position:relative;animation:animateright 3s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+ .animate-bottom{line-height:.8em;font-family:'Hestia-Regular';position:relative;animation:animatebottom 3s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
