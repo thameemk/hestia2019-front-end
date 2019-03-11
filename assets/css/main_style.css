@@ -8,7 +8,6 @@
   .slideshow {
   position: absolute;
   width: 100vw;
-  height: 100vh;
   top: 0;
   left: 0;
   z-index: -1;
@@ -17,7 +16,6 @@
   padding: 0;
 }
 .slideshow li {
-  width: 100vw;
   position: absolute;
   top: 0;
   left: 0;
