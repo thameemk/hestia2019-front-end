@@ -1,0 +1,13 @@
+.form-group-div>div>a {
+  cursor: pointer;
+  font-size: 12px;
+  text-decoration: none;
+  color: dimgray;
+  float: right;
+}
+
+
+.form-group-div {
+  display: block;
+  width: 100%;
+}
