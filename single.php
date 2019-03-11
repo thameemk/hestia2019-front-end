@@ -67,18 +67,20 @@
      }
 
 }
-@media (min-width: 320px) and (max-width: 1024px) {
+@media screen and (min-width: 320px) and (max-width: 1024px) {
   #img-event{
-  	    min-height:400px;
+  	    /* min-height:400px; */
         overflow: hidden;
-        height: 100%;
+        height: 100vh;
 
      }
      #event-mask{
-      height:100vh;
+      height:100%;
      }
      #event-mask-img{
-      height:90vh;
+      height:100%;
+      max-height: 200px;
+      background-position: center;
      }
   #img-cont{
    		min-height : 400px;
@@ -95,9 +97,11 @@
         <div class="row ">
           <div class="col-md-5 col-sm-12" id="img-event">
             <!-- <img src="https://placeholdit.imgix.net/~text?txtsize=38&txt=400%C3%97400&w=400&h=400" class="w-100"> -->
-            <img src="assets/img/event_mask2.png" id="event-mask" style="width:100%; position: absolute;z-index:1; margin-top: -11px;" />
+            
 
-            <img  id="event-mask-img" src="assets/img/event2.jpg" style="width:100%;  position: absolute;z-index:0;" />
+            <div id="event-mask-img" style="background-image: url('assets/img/event2.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;  width:100%;  position: absolute;z-index:0;">
+            <img id="event-mask" src="assets/img/event_mask2.png" style="width:100%;z-index:1;"/>
+            </div>
           </div>
           <div class="col-md-7 px-3 col-sm-12" >
             <div class="card-block px-3" style="margin-top: 5%;" id="img-cont">
