@@ -76,13 +76,15 @@
        margin-left: -160px;
        margin-top: 35px;
      }
-  #img-cont{
-   		height : 540px;
-   		overflow-y: scroll
-
-     }
+     
      body{
        overflow: hidden;
+     }
+  #img-cont{
+       height : 540px;
+       overflow-y: scroll;
+       overflow-x: hidden;
+
      }
      .space{
      margin-right: 30px;
@@ -203,8 +205,8 @@
             <!-- <div style="background-image: url('assets/img/WEB_DENOVO_H.jpg'); background-size: cover; background-position: right; background-repeat: no-repeat;  width:100%;  position: absolute;z-index:0;"></div> -->
             <!-- <div style="background-image: url('assets/img/event-mask1.png'); background-size: cover; background-position: right; background-repeat: no-repeat;  width:100%;  position: absolute;z-index:1;"></div> -->
           </div>
-          <div class="col-md-7 px-3 col-sm-12 event_block"  style="z-index: 1; display: block;  " >
-            <div class="card-block px-3" style="margin-top: 5%; overflow: scroll !important;" id="img-cont">
+          <div class="col-md-7 px-3 col-sm-12 event_block"  style="z-index: 1; display: block; " >
+            <div class="card-block px-3" style="margin-top: 5%;overflow-x: hidden;" id="img-cont">
               <h2 class="card-title" style="font-weight: 900; letter-spacing: 3px;max-height: 100vh;">EVENT 1</h2>
               <p class="card-text text-justify text-muted space" style="font-size: 1.2em;" >Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, has in doming impedit, quas cetero patrioque cu mei. Maluisset laboramus disputando eum id, has maiorum erroribus vulputate no. Vis solum labore reformidans eu. An sit ubique posidonium.
 
