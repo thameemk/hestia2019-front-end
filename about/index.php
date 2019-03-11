@@ -37,7 +37,7 @@
       color: white;
     }
     body {
-      background: url('../assets/img/ediyt.jpg') no-repeat center center fixed;
+      background: url('../assets/img/about_us_bg.jpg') no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;

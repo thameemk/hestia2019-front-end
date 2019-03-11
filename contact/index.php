@@ -50,7 +50,7 @@ left:10px;
 
 </head>
 
-<body style="background-image:url('../assets/img/ediyt.jpg')">
+<body style="background-image:url('../assets/img/contact_us_bg.jpg')">
   <div class="container  text-white">
     <h2 class="text-center " style="display: block;font-weight: 700; margin-top: 5%; letter-spacing: 2px; font-family: 'Hestia-Regular', sans-serif;"><a  class="back_btn" style="position:absolute;text-decoration:none;color:white;" href="#" onclick="window.history.back();"><i class="fa fa-arrow-left" aria-hidden="true"></i>
 </a>CONTACT US</h2>
