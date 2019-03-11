@@ -14,6 +14,19 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
+<!-- <script type="text/javascript">
+  function initmask() {
+    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    if(w < 960){
+
+      var x = document.getElementById("event-img");
+     x.setAttribute("src", "assets/img/WEB_DENOVO_H.jpg");
+    //  var y = document.getElementById("event-mask");
+    // y.setAttribute("src", "assets/img/mobile_phone_front_end.png");
+    }
+    
+}
+   </script> -->
 <style>
   @media screen and (max-width: 767px){
     #event-mask{
@@ -23,7 +36,12 @@
     -o-transform: rotateZ(90deg);
     transform: rotateZ(90deg);
     }
+    .event_block{
+      padding-top: 70%;
+    }
+
   }
+  
   *{
     font-family: 'Pathway Gothic One', sans-serif;
   }
@@ -39,8 +57,8 @@
   body{
     overflow-x: hidden;
   }
- @media (min-width: 1025px) and (max-width: 1366px) {
-  #img-event{
+ @media screen and (min-width: 1366px) {
+  /* #img-event{
   	    overflow: hidden;
        padding: 0px;
        height: 100%;
@@ -49,6 +67,14 @@
      #event-mask{
        width: 100%;
        height: 100%;
+     } */
+     
+     #event-img{
+       /* padding-right: 50px; */
+       /* padding-top: 120px; */
+       height: 100%;
+       margin-left: -160px;
+       margin-top: 35px;
      }
   #img-cont{
    		height : 540px;
@@ -61,35 +87,104 @@
      .space{
      margin-right: 30px;
    }
-   #event-mask{
+   /* #event-mask{
       height:100vh;
      }
      #event-mask-img{
       height:90vh;
-     }
+     } */
 
 }
-@media screen and (min-width: 320px) and (max-width: 1024px) {
-  #img-event{
-  	    /* min-height:400px; */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  /* #img-event{
+  	    min-height:400px;
         overflow: hidden;
         height: 100vh;
 
+     } */
+     body{
+       /* overflow-x: hidden; */
+       width: 100vw;
      }
      #event-mask{
-      height:100%;
+      margin-top: -12px;
+      max-width: 100vw;
      }
-     #event-mask-img{
+     #event-img{
+       max-width: 100vw;
+     }
+     /* #event-mask-img{
       height:100%;
       max-height: 200px;
       background-position: center;
-     }
+     } */
   #img-cont{
    		min-height : 400px;
-
+      
    	}
 
 
+}
+@media screen and (min-width: 768px) and (max-width: 1365px){
+  #event-img{
+       /* padding-right: 50px; */
+       /* padding-top: 120px; */
+       height: 100%;
+       margin-left: -110px;
+       margin-top: 20px;
+     }
+     #event-mask{
+       height: 100vh;
+     }
+  #img-cont{
+   		height : 540px;
+   		overflow-y: scroll
+
+     }
+     body{
+       overflow: hidden;
+     }
+     .space{
+     margin-right: 30px;
+   }
+
+}
+@media screen and (width: 1280px){
+  #event-mask{
+       height: 100%;
+     }
+     #event-img{
+       
+      margin-top: 0px;
+     }
+}
+@media screen and (height: 1366px){
+  #event-mask{
+       height: 45vh;
+     }
+     #event-img{
+       
+      margin-top: 0px;
+     }
+}
+@media screen and (height: 1024px){
+  #event-mask{
+       height: 55vh;
+     }
+     #event-img{
+       
+      margin-top: 0px;
+     }
+}
+@media screen and (height: 1280px){
+  #event-mask{
+       height: 50vh;
+     }
+     #event-img{
+       
+      margin-top: 0px;
+     }
 }
 </style>
 <body>
@@ -97,18 +192,21 @@
     <div class="container-fluid p-0 m-0 py-lg-3 py-md-0 ">
       <!-- <div class="card"> -->
         <div class="row ">
-          <div class="col-md-5 col-sm-12" id="img-event">
-            <!-- <img src="https://placeholdit.imgix.net/~text?txtsize=38&txt=400%C3%97400&w=400&h=400" class="w-100"> -->
-            
-
-            <div id="event-mask-img" style="background-image: url('assets/img/WEB_DENOVO.jpg'); background-size: cover; background-position: top; background-repeat: no-repeat;  width:100%;  position: absolute;z-index:0;">
-            <img id="event-mask" src="assets/img/event_mask2.png" style="width:100%; z-index:1; "/>
+          <!-- <div class="col-md-5 col-sm-12" style="position: fixed;" id="img-event">
+            <div id="event-mask-img" style="background-image: url('assets/img/WEB_DENOVO_H.jpg'); background-size: cover; background-position: right; background-repeat: no-repeat;  width:100%;  position: absolute;z-index:0;"></div>
+            <div id="event-mask" src="" style=" background-image: url('assets/img/mask technical events short  crcted.png'); background-size: cover; background-position: right; background-repeat: no-repeat;   "></div>
             </div>
+          </div> -->
+          <div class="col-md-5 col-sm-12">
+          <img src="assets/img/web.jpg" id="event-img" style="position: absolute; width:100%; z-index:0;" alt="">
+          <img src="assets/img/event_mask.png" id="event-mask" style="position: absolute; width:100%; z-index:1; " alt="">
+            <!-- <div style="background-image: url('assets/img/WEB_DENOVO_H.jpg'); background-size: cover; background-position: right; background-repeat: no-repeat;  width:100%;  position: absolute;z-index:0;"></div> -->
+            <!-- <div style="background-image: url('assets/img/event-mask1.png'); background-size: cover; background-position: right; background-repeat: no-repeat;  width:100%;  position: absolute;z-index:1;"></div> -->
           </div>
-          <div class="col-md-7 px-3 col-sm-12" >
-            <div class="card-block px-3" style="margin-top: 5%;" id="img-cont">
-              <h2 class="card-title" style="font-weight: 900; letter-spacing: 3px; ">EVENT 1</h2>
-              <p class="card-text text-justify text-muted space">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, has in doming impedit, quas cetero patrioque cu mei. Maluisset laboramus disputando eum id, has maiorum erroribus vulputate no. Vis solum labore reformidans eu. An sit ubique posidonium.
+          <div class="col-md-7 px-3 col-sm-12 event_block"  style="z-index: 1; display: block;  " >
+            <div class="card-block px-3" style="margin-top: 5%; overflow: scroll !important;" id="img-cont">
+              <h2 class="card-title" style="font-weight: 900; letter-spacing: 3px;max-height: 100vh;">EVENT 1</h2>
+              <p class="card-text text-justify text-muted space" style="font-size: 1.2em;" >Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, has in doming impedit, quas cetero patrioque cu mei. Maluisset laboramus disputando eum id, has maiorum erroribus vulputate no. Vis solum labore reformidans eu. An sit ubique posidonium.
 
                   Modo hendrerit an mei. His ad commune appetere. No quo latine sanctus partiendo, vix platonem dissentiunt id. Nam dolor tation ne, ius at bonorum facilisis percipitur, fuisset forensibus deterruisset qui id. Vix habemus democritum ne, vix at laudem appellantur definitiones.
 
