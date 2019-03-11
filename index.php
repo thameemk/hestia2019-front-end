@@ -29,7 +29,7 @@
   function initmask() {
     var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
     if(w < 960){
-  
+
       var x = document.getElementById("pcmask");
      x.setAttribute("src", "assets/img/mobile_phone_front_end.png");
     }
@@ -154,11 +154,11 @@
 
     </div>
   </div>
-  </div>
+
 
 
   <!--   Core JS Files   -->
-  
+
   <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
   <script src="assets/carousel/owl.carousel.min.js"></script>
   <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
@@ -227,18 +227,7 @@
       });
     });
   </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135861738-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-135861738-1');
-  </script>
+  
 
 
 </body>
