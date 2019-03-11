@@ -1,7 +1,14 @@
 let queMembers = [];
+let min = 3; // TODO set min
+let max = 3; // TODO set max
 $(document).ready(function() {
+  if (max-min<=0) {
+    $("#addmoreMembersBtn").css({
+      "display": "none"
+    });
+  }
   $("#addmoreMembersBtn").click(function() {
-    if (queMembers.length < 4) {
+    if (queMembers.length < max-min) {
       let id_ = "#member_" + (queMembers.length + 1);
       $(id_).show();
       for (let incr = 0; incr < queMembers.length; incr++) {
@@ -9,13 +16,12 @@ $(document).ready(function() {
       }
       $(id_ + "_close").show();
       queMembers.push(id_);
-      if (queMembers.length >= 3) {
+      if (queMembers.length >= max-min) {
         $("#addmoreMembersBtn").css({
           "opacity": "0.7",
           "border-color": "grey",
           "color": "grey"
         });
-        $("#addmoreMembersBtn").attr("disabled", "disabled");
       }
     }
   })
