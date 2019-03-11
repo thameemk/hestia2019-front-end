@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="assets/img/logo.jpg">
+  
+  <link rel="icon" type="image/png" href="assets/img/hestia-icon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="theme-color" content="#1a3840">
 
@@ -87,7 +87,7 @@
             </li>
             <li class="nav-item d-none d-lg-block">
               <a class="navbar-brand my-auto" href="#">
-                <img class="fade-in-top" style="max-height: 75px;margin-top: -20px;" src="assets/img/logo.png" /></a>
+                <img class="fade-in-top" id="loading" style="max-height: 75px;margin-top: -20px;" src="assets/img/logo.png" /></a>
             </li>
             <li class="nav-item fade-in">
               <a href="about/" class="nav-link">
@@ -123,7 +123,7 @@
       <div class="item auto-height" style="max-height:50vh;background-image: url('assets/img/bg.jpg'); background-size: cover; background-position: top;box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);"
         data-hash="technical">
         <div class="container" style="padding: 10px;position: absolute;top: 50%;left: 50%;transform: translateX(-50%) translateY(-50%);">
-          <h1 class="title  event-name" style="">Technical</h1>
+        <h1 class="title  event-name" style=""><a href="/technical">Technical</a></h1>
         </div>
       </div>
       <div class="item auto-height" style="max-height:50vh;background-image: url('assets/img/bg2.jpg'); background-size: cover; background-position: top;box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);"
