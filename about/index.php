@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="../assets/img/logo.jpg">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Hestia'19
+    Hestia19
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -82,9 +82,9 @@
       </div>
       <div class="col-md-2 my-auto " style="text-align:center;">
         <!-- <img src="http://tkmce.ac.in/wp-content/themes/tkm/images/tkmce_logo.png"> -->
-        <img src="../assets/img/logo.png" class="mx-4" style="max-width:100px;">
+        <img src="../assets/img/logo-tkmce.png" class="mx-4" style="max-width:95px;">
 
-        <img src="../assets/img/logo.png" class="mx-4" style="max-width:100px;">
+        <img src="../assets/img/logo.png" class="pb-3 mt-3 mx-4" style="max-width:120px;">
 
       </div>
       <div class="col-md-5 my-auto">
