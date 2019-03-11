@@ -101,8 +101,8 @@
             <!-- <img src="https://placeholdit.imgix.net/~text?txtsize=38&txt=400%C3%97400&w=400&h=400" class="w-100"> -->
             
 
-            <div id="event-mask-img" style="background-image: url('assets/img/event2.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;  width:100%;  position: absolute;z-index:0;">
-            <img id="event-mask" src="assets/img/event_mask2.png" style="width:100%;z-index:1;"/>
+            <div id="event-mask-img" style="background-image: url('assets/img/WEB_DENOVO.jpg'); background-size: cover; background-position: top; background-repeat: no-repeat;  width:100%;  position: absolute;z-index:0;">
+            <img id="event-mask" src="assets/img/event_mask2.png" style="width:100%; z-index:1; "/>
             </div>
           </div>
           <div class="col-md-7 px-3 col-sm-12" >
