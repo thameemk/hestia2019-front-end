@@ -14,6 +14,7 @@
 }
 
 #status {
+    -webkit-animation: rotation 8s infinite linear;
   width: 200px;
   height: 200px;
   position: absolute;
@@ -21,10 +22,19 @@
   /* centers the loading animation horizontally one the screen */
   top: 50%;
   /* centers the loading animation vertically one the screen */
-  background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
+  background-image: url(../img/hestia-icon.png);
   /* path to your loading animation */
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   margin: -100px 0 0 -100px;
   /* is width and height divided by two */
+}
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
 }
