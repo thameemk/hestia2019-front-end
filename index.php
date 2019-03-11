@@ -87,7 +87,7 @@
             </li>
             <li class="nav-item d-none d-lg-block">
               <a class="navbar-brand my-auto" href="#">
-                <img class="fade-in-top" style="max-height: 75px;margin-top: -20px;" src="assets/img/logo.svg" /></a>
+                <img class="fade-in-top" style="max-height: 75px;margin-top: -20px;" src="assets/img/logo.png" /></a>
             </li>
             <li class="nav-item fade-in">
               <a href="about/" class="nav-link">

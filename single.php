@@ -80,7 +80,7 @@
             <!-- <img src="https://placeholdit.imgix.net/~text?txtsize=38&txt=400%C3%97400&w=400&h=400" class="w-100"> -->
             <img src="assets/img/event_mask2.png" id="event-mask" style="width:100%; position: absolute;z-index:1; margin-top: -11px" />
 
-            <img src="assets/img/test1.png" style="width:100%;  position: relative;z-index:0;" />
+            <img src="assets/img/event2.jpg" style="width:100%;  position: absolute;z-index:0;" />
           </div>
           <div class="col-md-7 px-3 col-sm-12" >
             <div class="card-block px-3" style="margin-top: 5%;" id="img-cont">
