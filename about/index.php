@@ -76,27 +76,19 @@ left:10px;
     </div>
     <div class="row pb-5" style="height:100vh">
       <div class="col-md-5 my-auto ">
-        <p class="text-justify  listing3" style="letter-spacing: 1px;">&nbsp;&nbsp;&nbsp;TKM College of Engineering. founded in 1958 is the first
-          government aided college in Kerala and the only engineering
-          College in the state under the government aided and
-          semi government sector to have been accredited with Grade,
-          by NAAC. Located in the heart of the land of cashews, Kollam,
-          Kerala. TKMCE is undoubtedly an institution of national
-          Importance and has been in the foretront in promoting new and
-          revolutionary ideas that old mankind. Throughout its 60 year old
-          legacy. ICE has been a mineral of Idlenis, brimming with
-          exceptional calibre, technological excellence and innovation
-          Pursuing excellence, TKMCE S blessed with students who have
-          proved their mettle through a number of national and
-          international stages, and have used their innovative thinking
-          capability and technical know-how's in socially relevant projects
-          products and events, and boasts a plethora of organisations and
-          world renowned student chapters. TKMCE has a rich tradition of
-          eminence, and has been continually re-inventing itself in terms of
-          academics, research and infrastructure.</p>
+        <p class="text-justify  listing3" style="letter-spacing: 1px;">TKM College of Engineering, founded in 1958, is the first
+         government aided college in Kerala and the only engineering college in the state under the government, aided and 
+         semi-government sector to have been accredited with ‘A’ grade by NAAC. Located in the heart of the land of cashews, Kollam, 
+         Kerala, TKMCE is undoubtedly an institution of national importance and has been in the forefront in promoting new and 
+         revolutionary ideas that aid mankind. Throughout its 60 year old legacy, TKMCE has been a minefield of talents, brimming with
+          exceptional calibre, technological excellence and innovation. <br><br><br>
+          Pursuing excellence, TKMCE is blessed with students who
+           have proved their mettle through a number of national and international stages, and have used their innovative thinking capability and
+            technical know-how’s in socially relevant projects, products and events, and boasts a plethora of organisations and student
+             chapters like STEPS, IEEE, IEDC, SAE, ACM etc. TKMCE has a rich tradition of eminence, and has been
+              continually re-inventing itself in terms of academics, research and infrastructure. </p>
       </div>
       <div class="col-md-2 my-auto " style="text-align:center;">
-        <!-- <img src="http://tkmce.ac.in/wp-content/themes/tkm/images/tkmce_logo.png"> -->
         <img src="../assets/img/logo-tkmce.png" class="mx-4" style="max-width:95px;">
 
         <img src="../assets/img/logo.png" class="pb-3 mt-3 mx-4" style="max-width:120px;">
@@ -105,22 +97,17 @@ left:10px;
       <div class="col-md-5 my-auto">
 
 
-        <p class="text-justify listing3 " style="letter-spacing: 1px;">&nbsp;&nbsp;&nbsp;Hestia 19 is an extraordinary vision, Inspired by a great purpose
-          and conceived by a strong spark, which make one's thoughts
-          break bonds, mind transcend limitations, and consciousness
-          expand in every single direction to finally empower everyone
-          who nurtures it in a place where nothing and absolutely nothing is
-          impossible
-
-          The national level techno-managerial cultural symposium is a
-          rendezvous of the brain's left and right sides, an amalgamation of
-          all that is science and all that is art, for science and art must
-          embrace each other to triumph the contemporary world
-          challenges. It is technology and innovation acting together
-          catalysed by creativity and art, to create the arbor vitae.
-
-          The goal of Hestid 19 to create the ultimate ensemble of
-          technology, innovation, business, culture and art,<br><br><br><br><br></p>
+        <p class="text-justify listing3 " style="letter-spacing: 1px;">Hestia’19 is an extraordinary vision, 
+        inspired by a great purpose and conceived by a strong spark, which makes one’s thoughts break bonds, mind transcend limitations,
+         and consciousness expand in every single direction, to finally empower everyone who nurtures it in a place where nothing and 
+         absolutely nothing is impossible. <br><br>
+         The national level techno-managerial cultural symposium, is a rendezvous of the brain’s left and right sides, 
+an amalgamation of all that is science and all that is art, for science and art must embrace each other to triumph the contemporary
+ world’s challenges. It is technology and innovation acting together, catalysed by creativity and art, to create the elixir vitae. <br><br>
+ The national level techno-managerial cultural symposium will host a wide range of events workshops, a plethora of technical competitions from 
+various departments as well as clubs and organisations, and a grand tech expo, to name a few in the tech domain alone, while, 
+the cultural fest will be a melange of art and performance that will leave you breathless.<br><br>
+The goal of Hestia’19 is to create the ultimate ensemble of technology, innovation, business, culture and art.</p>
       </div>
     </div>
   </div>
