@@ -90,10 +90,10 @@
       <div class="col-md-4 col-sm-12"></div>
       <div class="col-md-4 col-sm-12" style=" letter-spacing: 2px; padding-top:5%;">
         <p style="font-size: 2rem; text-align: center;">
-            <a href="https://facebook.com/hestiatkmce/"><i class="pr-2 text-white fa fa-facebook-f" aria-hidden="true" ></i></a>
-          <a href="https://instagram.com/hestia.19"><i class="text-white fab fa-instagram"></i></a>
-          <a href="mailto:info@hestia.live"><i style="padding-left:10px;" class=" text-white far fa-envelope"></i></a>
-          <a href="https://www.youtube.com/channel/UC1S22VbH648c6TT4jJe6sgQ"><i style="padding-left:10px;" class=" text-white fa fa-youtube"></i></a>
+            <a href="https://facebook.com/hestiatkmce/" target="_blank"><i class="pr-2 text-white fa fa-facebook-f" aria-hidden="true" ></i></a>
+          <a href="https://instagram.com/hestia.19" target="_blank"><i class="text-white fab fa-instagram"></i></a>
+          <a href="mailto:info@hestia.live" target="_blank"><i style="padding-left:10px;" class=" text-white far fa-envelope"></i></a>
+          <a href="https://www.youtube.com/channel/UC1S22VbH648c6TT4jJe6sgQ" target="_blank"><i style="padding-left:10px;" class=" text-white fa fa-youtube"></i></a>
 
         </p>
 
