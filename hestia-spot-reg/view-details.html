@@ -8,40 +8,81 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.5/css/mdb.min.css" rel="stylesheet">
+  <style>
+    @font-face {
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+    }
 
+    body {
+      font-family: Product Sans;
+    }
+
+    .margin-form {
+      margin-left: 104px;
+      width: 50%;
+    }
+
+    .margin-form1 {
+      margin-left: 107px;
+      width: 50%;
+
+    }
+
+    .margin-form2 {
+      margin-left: 90px;
+      width: 50%;
+
+    }
+
+    .margin-form3 {
+      margin-left: 33px;
+      width: 50%;
+
+    }
+  </style>
 </head>
 
 <body>
-  <div style="max-width:70%;" class="modal-dialog" role="document">
+  <div style="max-width:70%;" class="modal-dialog pt-4" role="document">
     <div class="modal-content">
-      <div class="modal-header text-center">
+
+      <div class="row modal-header text-center">
+        <!-- <div class="col-sm-2"> -->
+        <!-- <img style="height:100px;width:100px;" src="https://www.hestia.live/assets/front/img/hestia-icon.png"> -->
+        <!-- </div> -->
+        <!-- <div class="col-sm-10"> -->
         <h4 class="modal-title w-100 font-weight-bold">Hestia 19 - Spot Registration</h4>
+        <!-- </div> -->
       </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-2">
+
+
+      <div class="modal-body ">
+        <form>
           <div class="row">
-            <div class="col-9">
-              <i class="fas fa-envelope prefix grey-text"></i>
-              <input type="email">
-              <label class="ml-5">Enter email address</label>
+            <div class="col-md-9 col-md-offset-1 mt-2">
+              <input style="height:44px;" type="email" class="form-control mb-4" placeholder="Enter email address">
             </div>
-            <div class="col-3">
+            <div class="col-md-3 col-md-offset-2 ">
               <button class="btn btn-default">Search</button>
             </div>
           </div>
           <div class="row pt-5">
-            <div class="col-12 mb-3">Name : <input type="text"></div>
-            <div class="col-12 mb-3"> Email :<input type="email"></div>
-            <div class="col-12 mb-3">Colege :<input type="text"></div>
-            <div class="col-12 mb-3">Phone Number :<input type="tel"></div>
+            <div class="col-12 mb-3"><span class="font-weight-bold">Name : </span><input class="margin-form" type="text"></div>
+            <div class="col-12 mb-3"> <span class="font-weight-bold">Email : </span><input class="margin-form1" type="email"></div>
+            <div class="col-12 mb-3"><span class="font-weight-bold">College : </span><input class="margin-form2" type="text"></div>
+            <div class="col-12 mb-3"><span class="font-weight-bold">Phone Number : </span><input class="margin-form3" type="tel"></div>
           </div>
           <div class="row pt-5">
             <button class="btn btn-default" style="margin-left:40%;">ADD</button>
             <button class="btn btn-default">UPDATE</button>
           </div>
-        </div>
+        </form>
       </div>
     </div>
+  </div>
 
 </body>
 
