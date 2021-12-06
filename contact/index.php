@@ -71,7 +71,7 @@ left:10px;
               Arts Club Secretary<br>
               College Union<br>
               <a class="text-white"href="tel:+918891505295">+918891505295</a><br>
-              <a class="text-white"href="mailto:paushal@hestia.live">paushal@hestia.live</a><br>
+              <a class="text-white"href="mailto:paushal@HESTIA_DOMAIN">paushal@HESTIA_DOMAIN</a><br>
           </p>
       </div>
       <div class="col-md-2 col-sm-12 person">
@@ -80,7 +80,7 @@ left:10px;
               Marketing Head<br>
               HESTIA'19<br>
               <a class="text-white"href="tel:+919645320167">+919645320167</a><br>
-              <a class="text-white"href="mailto:nickson@hestia.live">nickson@hestia.live</a><br>
+              <a class="text-white"href="mailto:nickson@HESTIA_DOMAIN">nickson@HESTIA_DOMAIN</a><br>
           </p>
       </div>
       <div class="col-md-2 col-sm-12 person">
@@ -89,7 +89,7 @@ left:10px;
               General Secretary<br>
               College Union<br>
               <a class="text-white"href="tel:+919645198034">+919645198034</a><br>
-              <a class="text-white"href="mailto:ashwinps@hestia.live">ashwinps@hestia.live</a><br>
+              <a class="text-white"href="mailto:ashwinps@HESTIA_DOMAIN">ashwinps@HESTIA_DOMAIN</a><br>
           </p>
       </div>
       <div class="col-md-3 col-sm-12 person">
@@ -98,7 +98,7 @@ left:10px;
               Chairman<br>
               College Union<br>
               <a class="text-white"href="tel:+918129715596">+918129715596</a><br>
-                <a class="text-white"href="mailto:anser@hestia.live">anser@hestia.live</a><br>
+                <a class="text-white"href="mailto:anser@HESTIA_DOMAIN">anser@HESTIA_DOMAIN</a><br>
           </p>
       </div>
       <div class="col-md-1 col-sm-12">
@@ -111,7 +111,7 @@ left:10px;
         <p style="font-size: 2rem; text-align: center;">
             <a href="https://facebook.com/hestiatkmce/" target="_blank"><i class="pr-2 text-white fa fa-facebook-f" aria-hidden="true" ></i></a>
           <a href="https://instagram.com/hestia.19" target="_blank"><i class="text-white fab fa-instagram"></i></a>
-          <a href="mailto:info@hestia.live" target="_blank"><i style="padding-left:10px;" class=" text-white far fa-envelope"></i></a>
+          <a href="mailto:info@HESTIA_DOMAIN" target="_blank"><i style="padding-left:10px;" class=" text-white far fa-envelope"></i></a>
           <a href="https://www.youtube.com/channel/UC1S22VbH648c6TT4jJe6sgQ" target="_blank"><i style="padding-left:10px;" class=" text-white fa fa-youtube"></i></a>
 
         </p>
@@ -122,7 +122,7 @@ left:10px;
     <div class="row">
         <div class="col-md-4 col-sm-12"></div>
         <div class="col-md-4 col-sm-12" style=" letter-spacing: 2px;">
-          <p style="font-weight: 700; font-size: .75em; text-align: center;">Web-related queries? <a class="text-white" href="mailto:admin@hestia.live">admin@hestia.live</a></p>
+          <p style="font-weight: 700; font-size: .75em; text-align: center;">Web-related queries? <a class="text-white" href="mailto:admin@HESTIA_DOMAIN">admin@HESTIA_DOMAIN</a></p>
         </div>
         <div class="col-md-4 col-sm-12"></div>
       </div>
